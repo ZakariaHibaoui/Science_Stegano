@@ -5,7 +5,7 @@ Science_Stegano is a python project in which we hide the secret message inside a
 ## What is Image Steganography?
 
  steganography technique involves hiding sensitive information within an ordinary, non-secret file or message, so that it will not be detected. The sensitive information will then be extracted from the ordinary file or message at its destination, thus avoiding detection. Steganography is an additional step that can be used in conjunction with encryption in order to conceal or protect data.
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8273e7a4-91d8-42af-a3d7-7aca637c9e28/Untitled.png)
+
 
 Steganography is a means of concealing secret information within (or even on top of) an otherwise mundane, non-secret document or other media to avoid detection. It comes from the Greek words steganos, which means “covered” or “hidden,” and graph, which means “to write.” Hence, “hidden writing.”
 
@@ -35,4 +35,77 @@ pycparser==2.21
 
 ## and for you benefice, use a virtual environement :
 
+### creating a venv for windows\Linux\Mac :
+
+```
+python -m venv <directory>
+```
+### activating venv 
+
+for Windows :
+
+```
+# cmd
+venv\scripts\activate.bat
+# powershell 
+venv\scripts\Activate.ps1
+```
+
+for Linux\Mac :
+
+```
+source myvenv/bin/activate
+```
+
+### what's inside a venv?
+
 for windows :
+
+```
+.
+├── Include
+├── Lib
+│   └── site-packages
+├── pyvenv.cfg
+└── Scripts
+    ├── activate
+    ├── activate.bat
+    ├── Activate.ps1
+    ├── deactivate.bat
+    ├── pip3.10.exe
+    ├── pip3.exe
+    ├── pip.exe
+    ├── python.exe
+    └── python.exe
+````
+for Linux\Mac:
+```
+.
+|--bin
+|   |--activate
+|   |--activate.csh
+|   |--activate.fish
+|   |--easy_install
+|   |--easy_install-3.7
+|   |--pip
+|   |--pip3
+|   |--pip3.7
+|   |--python->python3
+|   |--python3->/usr/local/bin/python3
+|
+|--include
+|--lib
+|   |--python3.7
+|         |--site-packages
+|--pyvenv.cfg
+```
+
+### deactivating a venv
+
+Once you have finished working on your project, it’s a good habit to deactivate its venv. By deactivating, you leave the virtual environment. Without deactivating your venv, all other Python code you execute, even if it is outside your project directory, will also run inside the venv.
+
+```
+deactivate
+```
+
+
