@@ -114,4 +114,6 @@ uninstall all package
 pip freeze | xargs pip uninstall -y
 ````
 
+## the package that i created is joyboy 0.0.1 
+
 
