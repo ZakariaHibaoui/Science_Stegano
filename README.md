@@ -109,3 +109,9 @@ deactivate
 ```
 
 
+uninstall all package 
+````
+pip freeze | xargs pip uninstall -y
+````
+
+
