@@ -116,4 +116,15 @@ pip freeze | xargs pip uninstall -y
 
 ## the package that i created is joyboy 0.0.1 
 
+to run the project , you need to install all the pre-requis of the project , I just mention it on the requirements file . so you need to install them all .
+then run to python interpreter or a python file and tap this code :
+```
+from mypackage import main
+```
+then run the file.
+
+```
+ENJOY IT 👍🙂
+```
+
 
